@@ -1,0 +1,5 @@
+Criterion,Points,Notes
+Correctness,50,Pipeline semantics
+Hazards,30,Stalls/forwarding/flush
+Stats,10,CPI & stalls
+Style,10,Docs

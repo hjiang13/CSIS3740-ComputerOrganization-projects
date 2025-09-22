@@ -1,0 +1,5 @@
+Criterion,Points,Notes
+Integration,40,Assembler+CPU+cache/pipeline
+Stability,20,Runs reliably
+Performance,20,Stats
+Demo & report,20,Clarity

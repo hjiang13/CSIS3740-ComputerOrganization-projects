@@ -1,0 +1,5 @@
+Criterion,Points,Notes
+Functionality,60,"Two-pass assembly, labels, immediates"
+ISA doc,20,Opcode table
+Examples,10,Two programs
+Style,10,Clean code

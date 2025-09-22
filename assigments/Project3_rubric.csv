@@ -1,0 +1,5 @@
+Criterion,Points,Notes
+Execution correctness,60,Matches spec
+Trace/observability,20,PC/IR/regs
+Examples,10,Array sum & branch
+Style,10,Comments
