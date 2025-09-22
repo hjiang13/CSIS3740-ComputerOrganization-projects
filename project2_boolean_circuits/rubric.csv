@@ -1,0 +1,5 @@
+Criterion,Points,Notes
+Simplification & correctness,40,Truth tables & laws
+Circuit impl,40,Adder/mux
+Docs,10,Diagrams
+Style,10,Clarity
