@@ -9,17 +9,20 @@ Projects are aligned with the course schedule. Together they build a simple **Ti
 ---
 
 ## 📂 Repository Structure
-  ```
-  CSIS3740_projects/
-  assignments/ # Assignment briefs + grading rubrics (Markdown + CSV)
-  CSIS3740_Assignments_Rubrics_Summary_v2.pdf # All-in-one summary (overview + rubrics)
-  project1_data_representation/ # Project 1: ALU & converters
-  project2_boolean_circuits/ # Project 2: Boolean algebra & circuits
-  project3_basic_machine_org/ # Project 3: Single-cycle CPU
-  project4_assembly_language/ # Project 4: Assembler
-  project5_instruction_set_arch2/ # Project 5: Pipeline
-  project6_memory_hierarchy/ # Project 6: Cache
-  project7_alternative_arch/ # Project 7: Integration demo
+```
+CSIS3740-ComputerOrganization-projects/
+├── LICENSE                    # License file
+├── README.md                  # Project documentation
+└── [Project folders to be added]
+    ├── assignments/ # Assignment briefs + grading rubrics (Markdown + CSV)
+    ├── CSIS3740_Assignments_Rubrics_Summary_v2.pdf # All-in-one summary (overview + rubrics)
+    ├── project1_data_representation/ # Project 1: ALU & converters
+    ├── project2_boolean_circuits/ # Project 2: Boolean algebra & circuits
+    ├── project3_basic_machine_org/ # Project 3: Single-cycle CPU
+    ├── project4_assembly_language/ # Project 4: Assembler
+    ├── project5_instruction_set_arch2/ # Project 5: Pipeline
+    ├── project6_memory_hierarchy/ # Project 6: Cache
+    └── project7_alternative_arch/ # Project 7: Integration demo
 ```
 
 ---
@@ -27,17 +30,17 @@ Projects are aligned with the course schedule. Together they build a simple **Ti
 ## 🚀 Getting Started
 1. Clone this repo:
    ```bash
-   git clone https://github.com/hjiang13/CSIS3740_projects.git
-   cd CSIS3740_projects
+   git clone https://github.com/hjiang13/CSIS3740-ComputerOrganization-projects.git
+   cd CSIS3740-ComputerOrganization-projects
 2. Pick a project folder, e.g. Project 1:
-
    ```bash
+   cd project1_data_representation
+   make           # build (automatically creates build/ and bin/ directories)
+   make run       # run the program
+   make test      # run minimal tests (if provided)
+   ```
 
-    cd project1_data_representation
-    make           # build
-    make run       # run the program
-    make test      # run minimal tests (if provided)
-3. Read the assignment brief in /assignments/ProjectX.md for tasks, deliverables, and rubric.
+3. Read the assignment brief in `/assignments/ProjectX.md` for tasks, deliverables, and rubric.
 
 ## 📝 Submissions
 For each project, submit the following to Blackboard:

@@ -1,0 +1,5 @@
+Criterion,Points,Notes
+Correctness,60,"ALU ops & flags, converters"
+Tests,20,Edge cases covered
+Report,10,Two's complement & flags
+Style,10,"Readable, comments"
